@@ -40,11 +40,21 @@ class matrix{
   }
   return temp;
 }
+matrix operator -(matrix obj){
+    matrix temp;
+    for (int i=0;i<3;i++){
+      for(int j=0;j<3;j++){
+  temp.m[i][j]=m[i][j] -obj.m[i][j];
+      }
+
+  }
+  return temp;
+}
 };
 
 int main()
 {
-  matrix a,b,c;
+  matrix a,b,c,d;
   a.setMatrix();
   b.setMatrix();
   c=a*b;
@@ -52,6 +62,9 @@ int main()
   a.printMatrix();
   cout<<"\nMATRIX B: \n";
   b.printMatrix();
-  cout<<"\nRESULT MATRIX C: \n";
+  cout<<"\nRESULT MULTIPLICATION MATRIX C: \n";
   c.printMatrix();
+  d=a-b;
+  cout<<"\nRESULT SUBSTRACTION MATRIX D: \n";
+  d.printMatrix();
 }
