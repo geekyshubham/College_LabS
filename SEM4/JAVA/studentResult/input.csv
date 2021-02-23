@@ -1,0 +1,123 @@
+grno,rollno,div,Name,Program,Year,Gender,sub1,sub2,sub3
+
+119C0057,1,B,AARUSH BABBAR,Master of Computer Application-(MCA),SY,Male,34,57,54
+
+119C0024,2,B,ABRAR ASLAM,Master of Computer Application-(MCA),SY,Male,28,47,70
+
+119C0005,3,B,ADITYA KUMAR TIWARI,Master of Computer Application-(MCA),SY,Male,52,81,45
+
+119C0038,4,B,AGREKAR PADMESH VILAS,Master of Computer Application-(MCA),SY,Male,97,90,25
+
+119C0007,5,B,ANSHUL JOSHI,Master of Computer Application-(MCA),SY,Male,95,18,53
+
+119C0045,6,B,ANURAG JINDAL,Master of Computer Application-(MCA),SY,Male,58,83,94
+
+119C0002,7,B,ASHUTOSH KUMAR,Master of Computer Application-(MCA),SY,Male,35,40,26
+
+119C0030,8,B,BARHATE PARAS KASHINATH,Master of Computer Application-(MCA),SY,Male,69,75,21
+
+119C0015,9,B,BHANDGE SAGAR KRISHNA,Master of Computer Application-(MCA),SY,Male,52,98,48
+
+119C0014,10,B,BHOSALE ANKITA VIJAY,Master of Computer Application-(MCA),SY,Female,22,17,81
+
+119C0028,11,B,BORKAR SANKET BABASAHEB,Master of Computer Application-(MCA),SY,Male,78,72,17
+
+119C0020,12,B,BORSE YASHRAJ PADMAKAR,Master of Computer Application-(MCA),SY,Male,95,75,74
+
+119C0008,13,B,CHIRAG DALE,Master of Computer Application-(MCA),SY,Male,80,90,27
+
+119C0027,14,B,DARADE GOVINDA AMBADAS,Master of Computer Application-(MCA),SY,Male,95,82,54
+
+119C0058,15,B,DARYANANI RIYA DINESH,Master of Computer Application-(MCA),SY,Female,57,42,74
+
+119C0054,16,B,DESHMUKH SAINATH PRAVINRAO,Master of Computer Application-(MCA),SY,Male,26,49,12
+
+119C0048,17,B,DHORE GAJANAN PRALHAD,Master of Computer Application-(MCA),SY,Male,63,27,56
+
+119C0033,18,B,DOLAS PRANITA NARENDRA,Master of Computer Application-(MCA),SY,Female,16,73,78
+
+119C0043,19,B,FURMALKAR NARAYAN ANIL,Master of Computer Application-(MCA),SY,Male,43,48,66
+
+119C0023,20,B,GATHADI PRATHAMESH SUNIL,Master of Computer Application-(MCA),SY,Male,26,69,38
+
+119C0016,21,B,GAWAS ABHIJEET BHALCHANDRA,Master of Computer Application-(MCA),SY,Male,78,48,69
+
+119C0019,22,B,GHANEKAR AISHWARYA MADHAV,Master of Computer Application-(MCA),SY,Female,55,55,87
+
+119C0006,23,B,INGLE SHWETA GAJANAN,Master of Computer Application-(MCA),SY,Female,77,24,30
+
+119C0010,24,B,JALNEKAR REVATI UMESH,Master of Computer Application-(MCA),SY,Female,39,33,40
+
+119C0066,25,B,JAVALKAR VAISHNAVI VIVEK,Master of Computer Application-(MCA),SY,Female,95,76,18
+
+119C0025,26,B,JOSHI CHAITANYA SHRIKRISHNA,Master of Computer Application-(MCA),SY,Male,92,92,58
+
+119C0029,27,B,KALE RAJKUVAR CHANDRAHASYA,Master of Computer Application-(MCA),SY,Female,44,58,25
+
+119C0032,28,B,KAMBLE AKSHAY UTTAMRAO,Master of Computer Application-(MCA),SY,Male,95,80,74
+
+119C0060,29,B,KANDELKAR AJINKYA NILKANTH,Master of Computer Application-(MCA),SY,Male,61,33,32
+
+119C0012,30,B,KHANDAGALE SUPRIYA DILIP,Master of Computer Application-(MCA),SY,Female,20,98,55
+
+119C0021,31,B,KHANDELWAL ANEESH RAJESH,Master of Computer Application-(MCA),SY,Male,13,54,68
+
+119C0018,32,B,KOLI TEJAS KESARINATH,Master of Computer Application-(MCA),SY,Male,58,11,34
+
+119C0056,33,B,KULKARNI ROHIT SUNIL,Master of Computer Application-(MCA),SY,Male,77,51,56
+
+119C0047,34,B,KULKARNI VANDAN VIVEK,Master of Computer Application-(MCA),SY,Male,21,34,51
+
+119C0064,35,B,MINI VISHWAKARMA,Master of Computer Application-(MCA),SY,Male,27,53,43
+
+119C0059,36,B,MISHRA GOURAV BANSHIDHAR,Master of Computer Application-(MCA),SY,Male,11,57,24
+
+119C0035,37,B,MORE RUTUJA VIJAY,Master of Computer Application-(MCA),SY,Female,49,17,79
+
+119C0003,38,B,MUKUL CHHIPA,Master of Computer Application-(MCA),SY,Male,15,20,20
+
+119C0034,39,B,MUNDADA KOMAL BHAGWANDAS,Master of Computer Application-(MCA),SY,Female,14,39,53
+
+119C0001,40,B,NARKHEDE TARUSSH RAMESH,Master of Computer Application-(MCA),SY,Male,77,99,94
+
+119C0042,41,B,PATHAK ABHISHEK GAJANAN,Master of Computer Application-(MCA),SY,Male,44,99,48
+
+119C0011,42,B,PAWAR AMOL VIVEKANAND,Master of Computer Application-(MCA),SY,Male,33,43,95
+
+119C0040,43,B,PAWAR ROSHAN SUSHIL,Master of Computer Application-(MCA),SY,Male,18,32,22
+
+119C0050,44,B,PRAJAPATI SIDDHARTH NANDKISHOR,Master of Computer Application-(MCA),SY,Male,24,11,84
+
+119C0004,45,B,PRATEEK ROY,Master of Computer Application-(MCA),SY,Male,45,68,92
+
+119C0062,46,B,SATYAM CHOURASIA,Master of Computer Application-(MCA),SY,Male,25,93,60
+
+119C0036,47,B,SHETKAR NIKHIL SHIVBAS,Master of Computer Application-(MCA),SY,Male,16,81,90
+
+119C0061,48,B,SHILPA KOUL,Master of Computer Application-(MCA),SY,Female,51,72,29
+
+119C0052,49,B,SHINDE TUKARAM VITTHALRAO,Master of Computer Application-(MCA),SY,Male,63,30,66
+
+119C0017,50,B,SINGH MAYANK LAXMIPRAKASH,Master of Computer Application-(MCA),SY,Male,14,81,75
+
+119C0053,51,B,SIRSAT AKASH MANOHAR,Master of Computer Application-(MCA),SY,Male,49,73,46
+
+119C0065,52,B,SONAL KUMAR,Master of Computer Application-(MCA),SY,Male,24,67,98
+
+119C0041,53,B,SUMANT KUMAR,Master of Computer Application-(MCA),SY,Male,93,44,74
+
+119C0046,54,B,TAKANKHAR SHUBHAM VILASRAO,Master of Computer Application-(MCA),SY,Male,60,65,40
+
+119C0026,55,B,TODE ANKITA RAHUL,Master of Computer Application-(MCA),SY,Female,59,75,64
+
+119C0044,56,B,TOSHNIWAL GOURI MANOJKUMAR,Master of Computer Application-(MCA),SY,Female,90,84,75
+
+119C0031,57,B,VAIDYA AMEYAA SHRIKANT,Master of Computer Application-(MCA),SY,Female,27,82,58
+
+119C0037,58,B,VAIDYA PRADNYA SHYAM,Master of Computer Application-(MCA),SY,Female,56,87,86
+
+119C0055,59,B,WAGHOLIKAR SAGARNANDA PANDITRAO,Master of Computer Application-(MCA),SY,Male,47,81,51
+
+119C0049,60,B,WAKSHE DNYANESHWAR MOHAN,Master of Computer Application-(MCA),SY,Male,48,49,82
+
+119C0013,61,B,ZAD VISHWESH SANJAY,Master of Computer Application-(MCA),SY,Male,85,68,39
