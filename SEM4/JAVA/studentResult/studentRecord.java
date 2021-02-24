@@ -18,13 +18,19 @@ public class studentRecord{
     int sub1;
     int sub2;
     int sub3;
+    int total;
     float percent;
     char grade;
     char div;
     String result;
 
+    public int getTotal(){
+        total = sub1+sub2+sub3;
+        return total;
+    }
+
     public float getPercent() {
-        percent = (sub1+sub2+sub3)/3;
+        percent = total/3;
         return percent;
     }
 
@@ -77,9 +83,63 @@ public class studentRecord{
             return grade;
         } 
 
-        public String writeRecord(){
-            return grno+","+rollno+","+div+","+fname+","+program+","+year+","+gender+","+sub1+","+sub2+","+sub3+","+percent+","+grade+","+result;
+        public void displayTable(List<List<String>> records){
+
+            List<Integer> colAlignList = Arrays.asList(
+                           Block.DATA_CENTER, Block.DATA_CENTER, Block.DATA_CENTER, Block.DATA_CENTER, Block.DATA_CENTER,
+                    Block.DATA_CENTER, Block.DATA_CENTER, Block.DATA_CENTER, Block.DATA_CENTER, Block.DATA_CENTER,
+                    Block.DATA_CENTER, Block.DATA_CENTER, Block.DATA_CENTER, Block.DATA_CENTER);
+
+            List<String> headersList = Arrays.asList("Gr. No.", "Roll No.", "Division", "Name", "Dept.","Year","Gender","SUB1","SUB2","SUB3","Total","Percentage","Grade","Result");
+            List<List<String>> rowsList =records;
+
+            Board board = new Board(135);
+            Table table = new Table(board, 135, headersList, rowsList);
+            Block tableBlock = table.tableToBlocks();
+            List<Integer> colWidthsListEdited = Arrays.asList(10, 10, 10, 30, 20,5,5,5,5,5,5,10,5,6);
+            table.setGridMode(Table.GRID_FULL).setColWidthsList(colWidthsListEdited);   
+            table.setColAlignsList(colAlignList);
+            board.setInitialBlock(tableBlock);
+            board.build();
+            String tableString = board.getPreview();
+            System.out.println(tableString);
+
         }
+
+        public void classRecord(){
+            String fileName ="classReport.csv";
+            printToFile(fileName,writeRecord(),true);
+        }
+
+
+        public String writeRecord(){
+
+            return grno+","+rollno+","+div+","+fname+","+program+","+year+","+gender+","+sub1+","+sub2+","+sub3+","+getTotal()+","+getPercent()+","+getGrade()+","+result+"\n";
+
+        }
+
+
+
+
+        public void printToFile(String fileName,String str,boolean mode){
+            try{
+            File file = new File(fileName);
+            if (!file.exists()){
+                file.createNewFile();
+            }
+            FileWriter writer = new FileWriter(file,mode);
+            writer.write(str);
+            writer.close();
+            }
+            catch (IOException e){
+                System.out.println("Error: " + e.getMessage());
+            }
+        
+        }
+
+
+
+
 
         public void printRecord(){
 
@@ -105,7 +165,7 @@ public class studentRecord{
                 
                 String t3Desc = " ";
                 List<String> t3Headers = Arrays.asList("TOTAL MARKS","PERCENTAGE","GRADE");
-                List<List<String>> t3Rows = Arrays.asList(Arrays.asList(Integer.toString(sub1+sub2+ sub3),Float.toString(getPercent())+"%",Character.toString(getGrade())));
+                List<List<String>> t3Rows = Arrays.asList(Arrays.asList(Integer.toString(getTotal()),Float.toString(getPercent())+"%",Character.toString(getGrade())));
 
                 Board board = new Board(75);
                 Block title = new Block(board, 56, 7, college).allowGrid(false).setBlockAlign(Block.BLOCK_CENTRE).setDataAlign(Block.DATA_CENTER);
@@ -127,19 +187,10 @@ public class studentRecord{
             String tableString = board.getPreview();
             System.out.println(tableString);
 
+            String fileName = grno +".txt";
+            
             //Printing to file
-            try{
-            File file = new File(grno+".txt");
-            if (!file.exists()){
-                file.createNewFile();
-            }
-            FileWriter writer = new FileWriter(file);
-            writer.write(tableString);
-            writer.close();
-            }
-            catch (IOException e){
-                System.out.println("Error: " + e.getMessage());
-            }
+            printToFile(fileName,tableString,false);
         }
     }
     
