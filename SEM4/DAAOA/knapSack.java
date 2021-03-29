@@ -14,6 +14,7 @@ public class knapSack {
         int itemNos = sc.nextInt();
 
         for (int i = 0; i < itemNos; i++){
+            
             System.out.println("Enter Item No."+(i+1));
             System.out.println("Enter Value");
             int val = sc.nextInt();
@@ -25,7 +26,8 @@ public class knapSack {
             int ratio = val / weight;
             pair.add(ratio);
             items.add(pair);
-
+            System.out.print("\033[H\033[2J");  
+            System.out.flush();  
         }
         sc.close();
     }
